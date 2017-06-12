@@ -1,4 +1,4 @@
-package Invoice;
+package invoice;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -18,6 +18,7 @@ public class Invoice {
 	}
 	
 	public void removeLineItem(int index) {
+		total = total.subtract(items.get(index).getLineItemAmount());
 		items.remove(index);
 	}
 	

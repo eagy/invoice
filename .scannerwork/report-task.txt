@@ -1,0 +1,5 @@
+projectKey=org.sonarqube:eclipse
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/org.sonarqube:eclipse
+ceTaskId=AVyeGl3sCDmK9-9QuP8x
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVyeGl3sCDmK9-9QuP8x

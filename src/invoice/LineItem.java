@@ -1,4 +1,4 @@
-package Invoice;
+package invoice;
 
 import java.math.BigDecimal;
 
